@@ -1,13 +1,3 @@
-# Ignore CSV data files but keep folder structure
-data/raw/*.csv
-data/processed/*.csv
-data/cache/
-
-# Keep the .gitkeep placeholder files
-!data/raw/.gitkeep
-!data/processed/.gitkeep
-!data/cache/.gitkeep
-
 # Trained model files
 models/*.pkl
 
