@@ -1,7 +1,12 @@
-# Data files — raw and processed data should not be in git
-data/raw/
-data/processed/
+# Ignore CSV data files but keep folder structure
+data/raw/*.csv
+data/processed/*.csv
 data/cache/
+
+# Keep the .gitkeep placeholder files
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/cache/.gitkeep
 
 # Trained model files
 models/*.pkl
