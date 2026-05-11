@@ -1,8 +1,38 @@
-data/cache/
+# Data files — raw and processed data should not be in git
 data/raw/
 data/processed/
+data/cache/
+
+# Trained model files
+models/*.pkl
+
+# Python
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Jupyter
 .ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# Environments
 .env
+.venv
+venv/
+env/
+
+# OS
 .DS_Store
+Thumbs.db
+
+# IDE
+.vscode/settings.json
+.idea/
+
+# Figures are tracked (small PNGs are fine to commit)
+# Uncomment below to exclude them too:
+# figures/*.png
