@@ -136,3 +136,6 @@ f1-driver-circuit-compatibility/
 - SHAP: Lundberg & Lee, NeurIPS 2017
 - XGBoost: Chen & Guestrin, KDD 2016
 - Full reference list in `report/F1_Project.pdf`
+
+## Paper
+[📄 F1 Project Report (PDF)](report/F1_Project.pdf)
